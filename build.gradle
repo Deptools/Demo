@@ -16,10 +16,13 @@ repositories {
 }
 
 dependencies {
+  // outdated
   implementation 'org.apache.logging.log4j:log4j-core:2.17.0'
+  // Inactive
   implementation 'javax.activation:activation:1.1.1'
-  implementation 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
+  // Strong copyleft
   implementation 'com.itextpdf:itext-core:9.5.0'
+  // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
 }
 
