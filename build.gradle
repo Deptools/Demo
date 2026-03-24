@@ -26,7 +26,7 @@ dependencies {
   // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
   // Good and up to date
-  implementation 'com.google.guava:guava:33.0.0-jre'
+  implementation 'tools.jackson.core:jackson-databind:3.1.0'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
