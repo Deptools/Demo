@@ -16,15 +16,17 @@ repositories {
 }
 
 dependencies {
-  // outdated
-  implementation 'org.apache.logging.log4j:log4j-core:2.17.0'
+  // outdated + CVE
+  implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
   // Inactive
-  implementation 'javax.activation:activation:1.1.1'
+  implementation 'commons-collections:commons-collections:3.2.1'
   // Strong copyleft
   implementation 'com.itextpdf:itext-core:9.5.0'
   implementation 'net.sf.jasperreports:jasperreports:6.20.0'
   // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
+  // Good and up to date
+  implementation 'com.google.guava:guava:33.0.0-jre'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
