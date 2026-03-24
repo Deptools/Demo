@@ -21,7 +21,7 @@ dependencies {
   // Inactive
   implementation 'javax.activation:activation:1.1.1'
   // Strong copyleft
-  implementation 'com.itextpdf:itext-core:9.5.0'
+  implementation 'com.itextpdf:itextpdf:5.5.13.5'
   // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
   // popular and up to date
