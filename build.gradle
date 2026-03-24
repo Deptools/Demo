@@ -22,10 +22,9 @@ dependencies {
   implementation 'commons-collections:commons-collections:3.2.1'
   // Strong copyleft
   implementation 'com.itextpdf:itext-core:9.5.0'
-  implementation 'net.sf.jasperreports:jasperreports:6.20.0'
   // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
-  // Good and up to date
+  // popular and up to date
   implementation 'tools.jackson.core:jackson-databind:3.1.0'
 }
 
