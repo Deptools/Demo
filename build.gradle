@@ -19,7 +19,7 @@ dependencies {
   // outdated + CVE
   implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
   // Inactive
-  implementation 'commons-collections:commons-collections:3.2.1'
+  implementation 'javax.activation:activation:1.1.1'
   // Strong copyleft
   implementation 'com.itextpdf:itext-core:9.5.0'
   // BIG
