@@ -22,6 +22,7 @@ dependencies {
   implementation 'javax.activation:activation:1.1.1'
   // Strong copyleft
   implementation 'com.itextpdf:itext-core:9.5.0'
+  implementation("org.apache.xmlgraphics:fop:2.11")
   // BIG
   implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
 }
