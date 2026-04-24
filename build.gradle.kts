@@ -7,7 +7,7 @@
 
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
-    id 'application'
+    application
 }
 
 repositories {
@@ -16,26 +16,26 @@ repositories {
 }
 
 dependencies {
-  // outdated + CVE
-  implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
-  // Inactive
-  implementation 'javax.activation:activation:1.1.1'
-  // Strong copyleft
-  implementation 'com.itextpdf:itextpdf:5.5.13.5'
-  // BIG
-  implementation 'org.springframework.boot:spring-boot-starter-web:4.0.3'
-  // popular and up to date
-  implementation 'com.fasterxml.jackson.core:jackson-databind:2.21.2'
+    // outdated + CVE
+    implementation("org.apache.logging.log4j:log4j-core:2.14.1")
+    // Inactive
+    implementation("javax.activation:activation:1.1.1")
+    // Strong copyleft
+    implementation("com.itextpdf:itextpdf:5.5.13.5")
+    // BIG
+    implementation("org.springframework.boot:spring-boot-starter-web:4.0.3")
+    // popular and up to date
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.21.2")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(25)
+        languageVersion.set(JavaLanguageVersion.of(25))
     }
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'io.deptools.App'
+    mainClass.set("io.deptools.App")
 }
